@@ -85,24 +85,6 @@ RIGHT JOIN Orders O
 ON C.customer_id = O.customer_id;
 --------------------------------
 
-## Expected Output Samples
-
-Customers Table:
---------------------------------
-customer_id | name         | phone       | city
-1           | Ravi Sharma  | 9745834678  | Mumbai
-2           | Priya Verma  | 8345587878  | Delhi
-3           | Amit Kumar   | 9793258778  | Pune
-4           | Neha Singh   | 9432885346  | Chennai
-
-Orders Table:
---------------------------------
-order_id | customer_id | product     | price
-101      | 1           | Laptop      | 55000.00
-102      | 1           | Keyboard    | 1500.00
-103      | 2           | Smartphone  | 18000.00
-104      | 3           | Tablet      | 12000.00
-
 ## Outcome
 By running these queries, you will:
 - Understand how different joins work
